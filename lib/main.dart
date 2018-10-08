@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
         // "hot reload" (press "r" in the console where you ran "flutter run",
         // or press Run > Flutter Hot Reload in IntelliJ). Notice that the
         // counter didn't reset back to zero; the application is not restarted.
-        primarySwatch: Colors.pink, // 设置app主题
+        primarySwatch: Colors.cyan, // 设置app主题
       ),
-      home: new MyHomePage(title: 'Home'),
+      home: new MyHomePage(title: '控件展示'),
     );
   }
 }
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return new Scaffold(
+    return new Scaffold(   // Material Design布局结构的基本实现。此类提供了用于显示drawer、snackbar和底部sheet的API。
       appBar: new AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
