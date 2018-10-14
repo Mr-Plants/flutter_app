@@ -28,7 +28,7 @@ class ListRow extends StatelessWidget {
             ),
 
             ///间隔
-            new Padding(padding: new EdgeInsets.only(left: 5.0)),
+            new Padding(padding: new EdgeInsets.only(left: 10.0)),
 
             ///显示文本
             new Text(
